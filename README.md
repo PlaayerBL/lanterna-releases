@@ -64,9 +64,11 @@ fora da pasta do Lanterna.
 O Lanterna procura versões novas sozinho, ao abrir e a cada hora (só baixa; não envia nada):
 
 - Ao abrir, se houver versão nova, ele pergunta se quer atualizar.
-- Durante o jogo, aparece "Lanterna X.Y.Z disponível" no canto de cima, à direita (só com as indicações ligadas).
+- Durante o jogo, aparece "Lanterna X.Y.Z disponível" no canto de cima, à direita, por 30 segundos a cada 2 minutos (só
+  com as indicações ligadas). Para não ver mais o aviso desta versão: botão direito no ícone > Atualizar > Dispensar o aviso
+  na tela.
 - Para atualizar a qualquer momento: botão direito no ícone > Atualizar > Pela internet.
-- O Lanterna atualiza e fecha; abra-o de novo para usar a versão nova. Configurações, calibração, registros e o que ele
+- O Lanterna fecha, atualiza e pergunta se abre a versão nova na hora. Configurações, calibração, registros e o que ele
   aprendeu continuam. O programa só aceita atualizações assinadas pelo desenvolvedor.
 
 Sem internet, ou se recebeu um "Lanterna-atualizacao-X.Y.Z.zip":
