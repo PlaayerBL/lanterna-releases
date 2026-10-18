@@ -90,3 +90,6 @@ Sem internet, ou se recebeu um "Lanterna-atualizacao-X.Y.Z.zip":
 
 Os dados ficam todos na pasta do Lanterna (`config.json`, registros, aprendizado). Para começar do zero, apague esses
 arquivos com o programa fechado.
+
+A pasta `registros` guarda as imagens das suas jogadas até 1 GB (`LimiteRegistrosBytes` no `config.json`). Passou
+disso, o Lanterna apaga as imagens das runs mais antigas. As jogadas em si (o que vai no arquivo de decisões) ficam.
