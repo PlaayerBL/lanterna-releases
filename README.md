@@ -59,6 +59,9 @@ abre sozinha) com as suas jogadas, sem imagens da tela. Mande esse .zip para que
 decisões e resultados das runs, o histórico, o relatório do computador e o seu apelido. Não vai: senhas, contas, nada
 fora da pasta do Lanterna.
 
+Se o Lanterna fechar sozinho, abra de novo e gere esse arquivo: vai junto o registro de erros, com o que o Windows anotou
+da queda.
+
 ## Atualizar
 
 O Lanterna procura versões novas sozinho, ao abrir e a cada hora (só baixa; não envia nada):
