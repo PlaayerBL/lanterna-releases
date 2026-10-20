@@ -15,7 +15,8 @@ Um overlay que lê a tela do jogo e indica a melhor jogada nas mecânicas de tem
 - **Mistville** (mapa, Mercador, Alchemy, escolhas, Deduction, Folklore)
 - **Canvas** (onde pôr a missão, o baú, qual efeito escolher, passivas da Artistry)
 - **Tartarus** (destino da manhã, Consume/Replace/End, qual preso devorar, Instigate ou Bestow na Interrogation Room,
-  a cela do Sewer Ratway, a melhor carta na escolha de instrumento e o presente do Warden's Treasure)
+  a cela do Sewer Ratway, a melhor carta na escolha de instrumento e o presente do Warden's Treasure; nos mapas, avisa quando
+  o Tartarus está quase cheio, de 45/48, ou cheio)
 - **Cubo** (na loja Blessings from Gods, as ofertas que compensam e quando dar Refresh)
 
 Ele **só** lê a tela e desenha as indicações. Não clica, não aperta teclas, não mexe na memória do jogo e não envia
