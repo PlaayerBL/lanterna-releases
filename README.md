@@ -45,7 +45,7 @@ https://github.com/PlaayerBL/lanterna-releases/releases/latest
 
 - O Lanterna fica como um ícone com a letra L na bandeja (perto do relógio).
 - Botão direito no ícone > Mecânica: escolha Mistville, Canvas, Tartarus ou Cubo (Blessings from Gods). Só a escolhida roda.
-- Cubo: os preços vêm da cópia local do ETor (se você usa o ETor); para usar os seus, bandeja > "Preços do Cubo…".
+- Cubo: os preços são os que você digita em bandeja > "Preços do Cubo…" (sem o da Divinity Stone, nada é calculado; itens fora da lista são ignorados).
 - **F8** (ou dois cliques no ícone) liga e desliga. O Torchlight roda como administrador, e o Windows esconde as teclas
   dele de programas comuns: para a F8 funcionar com o jogo aberto, abra o Lanterna como administrador
   (bandeja > "Reabrir como administrador", ou botão direito no atalho > Executar como administrador).
