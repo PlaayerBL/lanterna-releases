@@ -16,6 +16,7 @@ Um overlay que lê a tela do jogo e indica a melhor jogada nas mecânicas de tem
 - **Canvas** (onde pôr a missão, o baú, qual efeito escolher, passivas da Artistry)
 - **Tartarus** (destino da manhã, Consume/Replace/End, qual preso devorar, Instigate ou Bestow na Interrogation Room,
   a cela do Sewer Ratway, a melhor carta na escolha de instrumento e o presente do Warden's Treasure)
+- **Cubo** (na loja Blessings from Gods, as ofertas que compensam e quando dar Refresh)
 
 Ele **só** lê a tela e desenha as indicações. Não clica, não aperta teclas, não mexe na memória do jogo e não envia
 nenhuma informação para a internet. O único contato dele com a internet é para **receber** atualizações (do GitHub).
@@ -43,7 +44,8 @@ https://github.com/PlaayerBL/lanterna-releases/releases/latest
 ## Usar
 
 - O Lanterna fica como um ícone com a letra L na bandeja (perto do relógio).
-- Botão direito no ícone > Mecânica: escolha Mistville, Canvas ou Tartarus. Só a escolhida roda.
+- Botão direito no ícone > Mecânica: escolha Mistville, Canvas, Tartarus ou Cubo (Blessings from Gods). Só a escolhida roda.
+- Cubo: os preços vêm da cópia local do ETor (se você usa o ETor); para usar os seus, bandeja > "Preços do Cubo…".
 - **F8** (ou dois cliques no ícone) liga e desliga. O Torchlight roda como administrador, e o Windows esconde as teclas
   dele de programas comuns: para a F8 funcionar com o jogo aberto, abra o Lanterna como administrador
   (bandeja > "Reabrir como administrador", ou botão direito no atalho > Executar como administrador).
