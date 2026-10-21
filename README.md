@@ -36,9 +36,9 @@ https://github.com/PlaayerBL/lanterna-releases/releases/latest
    instalar (há um botão que abre a tela certa do Windows). O que pode faltar:
    - Windows 10 versão 2004 ou mais nova (ou Windows 11), 64 bits.
    - Media Feature Pack, só no Windows "N" (Configurações > Aplicativos > Recursos opcionais).
-   - Reconhecimento de texto (OCR) do Windows em português ou inglês (normalmente já vem). Se faltar:
-     Configurações > Hora e idioma > Idioma e região > Adicionar um idioma > English (United States). Não precisa
-     trocar o idioma do Windows.
+   - Reconhecimento de texto (OCR) do Windows em inglês. Se faltar, a verificação tem um botão "Instalar agora" (o
+     Windows pede permissão de administrador). Ou: Configurações > Hora e idioma > Idioma e região > Adicionar um
+     idioma > English (United States). Não precisa trocar o idioma do Windows.
 
    Não precisa instalar .NET nem mais nada: vem tudo na pasta.
 
