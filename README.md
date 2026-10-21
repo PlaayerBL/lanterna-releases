@@ -36,9 +36,10 @@ https://github.com/PlaayerBL/lanterna-releases/releases/latest
    instalar (há um botão que abre a tela certa do Windows). O que pode faltar:
    - Windows 10 versão 2004 ou mais nova (ou Windows 11), 64 bits.
    - Media Feature Pack, só no Windows "N" (Configurações > Aplicativos > Recursos opcionais).
-   - Reconhecimento de texto (OCR) do Windows em inglês. Se faltar, a verificação tem um botão "Instalar agora" (o
-     Windows pede permissão de administrador). Ou: Configurações > Hora e idioma > Idioma e região > Adicionar um
-     idioma > English (United States). Não precisa trocar o idioma do Windows.
+   - Reconhecimento de texto (OCR) do Windows: o inglês é o recomendado, mas o português (ou espanhol) também serve.
+     Sem o inglês, a verificação avisa e tem um botão "Instalar agora" (o Windows pede permissão de administrador). Ou:
+     Configurações > Hora e idioma > Idioma e região > Adicionar um idioma > English (United States). Não precisa trocar
+     o idioma do Windows. Se o Windows der erro (0x800f0950), reinicie e termine as atualizações; o Lanterna usa o que já tem.
 
    Não precisa instalar .NET nem mais nada: vem tudo na pasta.
 
@@ -46,6 +47,8 @@ https://github.com/PlaayerBL/lanterna-releases/releases/latest
 
 - O Lanterna fica como um ícone com a letra L na bandeja (perto do relógio).
 - Botão direito no ícone > Mecânica: escolha Mistville, Canvas, Tartarus ou Cubo (Blessings from Gods). Só a escolhida roda.
+- Botão direito no ícone > Leitura de texto (OCR): automático (inglês se tiver, senão português), inglês, português ou
+  inglês + português (o que o inglês não ler, em português).
 - Cubo: os preços são os que você digita em bandeja > "Preços do Cubo…" (sem o da Divinity Stone, nada é calculado; itens fora da lista são ignorados).
 - **F8** (ou dois cliques no ícone) liga e desliga. O Torchlight roda como administrador, e o Windows esconde as teclas
   dele de programas comuns: para a F8 funcionar com o jogo aberto, abra o Lanterna como administrador
