@@ -18,9 +18,12 @@ Um overlay que lê a tela do jogo e indica a melhor jogada nas mecânicas de tem
   a cela do Sewer Ratway, a melhor carta na escolha de instrumento e o presente do Warden's Treasure; nos mapas, avisa quando
   o Tartarus está quase cheio, de 45/48, ou cheio)
 - **Cubo** (na loja Blessings from Gods, as ofertas que compensam e quando dar Refresh)
+- **Vorax** (na Surgical Preparation, qual instrumento e qual poção pegar, em que tanque usar e quando dar Refresh)
 
 Ele **só** lê a tela e desenha as indicações. Não clica, não aperta teclas, não mexe na memória do jogo e não envia
 nenhuma informação para a internet. O único contato dele com a internet é para **receber** atualizações (do GitHub).
+
+Regras e estratégia do Vorax: tli-vorax-simulator (tidewarden e Moebing, licença MIT).
 
 ## Instalar
 
@@ -47,10 +50,13 @@ https://github.com/PlaayerBL/lanterna-releases/releases/latest
 ## Usar
 
 - O Lanterna fica como um ícone com a letra L na bandeja (perto do relógio).
-- Botão direito no ícone > Mecânica: escolha Mistville, Canvas, Tartarus ou Cubo (Blessings from Gods). Só a escolhida roda.
+- Botão direito no ícone > Mecânica: escolha Mistville, Canvas, Tartarus, Cubo (Blessings from Gods) ou Vorax (Surgical
+  Preparation). Só a escolhida roda.
 - Botão direito no ícone > Leitura de texto (OCR): automático (inglês se tiver, senão português), inglês, português ou
   inglês + português (o que o inglês não ler, em português).
 - Cubo: os preços são os que você digita em bandeja > "Preços do Cubo…" (sem o da Divinity Stone, nada é calculado; itens fora da lista são ignorados).
+- Vorax: marque o nível do pet em bandeja > "Pet Intern Shelley (Vorax)" (ou "Sem o pet"): ele dá as trocas de instrumento
+  que o conselho conta. Por enquanto, só em telas 16:9.
 - **F8** (ou dois cliques no ícone) liga e desliga. O Torchlight roda como administrador, e o Windows esconde as teclas
   dele de programas comuns: para a F8 funcionar com o jogo aberto, abra o Lanterna como administrador
   (bandeja > "Reabrir como administrador", ou botão direito no atalho > Executar como administrador).
@@ -94,6 +100,7 @@ Sem internet, ou se recebeu um "Lanterna-atualizacao-X.Y.Z.zip":
 - **Modo transmissão**: o overlay aparece no Discord/OBS quando você compartilha a tela. Fora dele, as indicações nunca
   aparecem na live. Sempre começa desligado: ligue de novo a cada vez que quiser mostrar.
 - **Pet Mistville Orphan**: marque o nível do pet para ele contar os refreshes grátis.
+- **Pet Intern Shelley (Vorax)**: marque o nível do pet para o conselho do Vorax contar as trocas de instrumento.
 - **Recalibrar**: se as indicações saírem fora do lugar.
 - **Verificar o computador**: mostra de novo a verificação.
 - **Log do jogo**: o Lanterna acha sozinho o arquivo de log do Torchlight (Steam) e, com ele, só lê a tela quando um
