@@ -39,7 +39,8 @@ https://github.com/PlaayerBL/lanterna-releases/releases/latest
    - Reconhecimento de texto (OCR) do Windows: o inglês é o recomendado, mas o português (ou espanhol) também serve.
      Sem o inglês, a verificação avisa e tem um botão "Instalar agora" (o Windows pede permissão de administrador). Ou:
      Configurações > Hora e idioma > Idioma e região > Adicionar um idioma > English (United States). Não precisa trocar
-     o idioma do Windows. Se o Windows der erro (0x800f0950), reinicie e termine as atualizações; o Lanterna usa o que já tem.
+     o idioma do Windows. Com uma atualização do Windows esperando reiniciar, a instalação falha (erro 0x800f0950): a
+     verificação avisa para reiniciar e terminar as atualizações antes; enquanto isso, o Lanterna usa o que já tem.
 
    Não precisa instalar .NET nem mais nada: vem tudo na pasta.
 
