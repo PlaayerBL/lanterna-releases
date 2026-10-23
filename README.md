@@ -69,8 +69,9 @@ https://github.com/PlaayerBL/lanterna-releases/releases/latest
 
 Botão direito no ícone > "Gerar arquivo de decisões (para enviar)". Ele cria um .zip na pasta "para-enviar" (a pasta
 abre sozinha) com as suas jogadas, sem imagens da tela. Mande esse .zip para quem te passou o Lanterna. Vai junto: as
-decisões e resultados das runs, o histórico, o relatório do computador e o seu apelido. Não vai: senhas, contas, nada
-fora da pasta do Lanterna.
+decisões e resultados das runs, o histórico, o relatório do computador e o seu apelido. A única imagem que vai é a da
+Surgical Preparation (Vorax) quando o Lanterna não conseguiu ler tudo (até 30; essa tela não tem chat), para corrigir a
+leitura. Não vai: senhas, contas, nada fora da pasta do Lanterna.
 
 Se o Lanterna fechar sozinho, abra de novo e gere esse arquivo: vai junto o registro de erros, com o que o Windows anotou
 da queda.
