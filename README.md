@@ -63,6 +63,8 @@ https://github.com/PlaayerBL/lanterna-releases/releases/latest
 - Só quer gravar as suas jogadas, sem indicações? Marque "Só coletar dados" no ícone. Nada aparece na tela, e as
   jogadas continuam sendo gravadas. Desmarque quando quiser as indicações de volta.
 - Mistville, primeira vez: abra a grade com o Lanterna ligado; ele se calibra sozinho e guarda.
+- Mistville: nos suprimentos iniciais, prioriza slot + comida dentro do Intel disponível (só uma escolha).
+  Durante a run, favorece o ciclo de comida e recuperação de Sanidade e busca caminhos mais baratos, contornando Estelas caras.
 - Recomendado: jogo em 1920x1080 (outras resoluções 16:9 funcionam).
 
 ## Mandar as suas jogadas (arquivo de decisões)
@@ -115,10 +117,14 @@ Sem internet, ou se recebeu um "Lanterna-atualizacao-X.Y.Z.zip":
 - **Leitura contínua da tela** (desligada): lê a tela mesmo quando o log não diz se a mecânica está aberta, como até a
   versão 1.4.3. Ligue só se as indicações não aparecerem com a mecânica aberta: usa mais o computador nos mapas.
 - **Aviso de Tartarus cheio** (ligado): nos mapas, lê o contador "X/48" do Tartarus quando o mapa carrega e depois uma vez por
-  minuto. Desligado, nada é lido fora da mecânica.
+  minuto (copia da tela só a caixinha do contador). Desligado, nada é lido fora da mecânica.
+- **Guardar imagens para diagnóstico** (desligado): guarda as imagens de todas as runs, não só das 2 últimas, até o limite de
+  espaço. Ligue só se quem te passou o Lanterna pedir.
 
 Os dados ficam todos na pasta do Lanterna (`config.json`, registros, aprendizado). Para começar do zero, apague esses
 arquivos com o programa fechado.
 
-A pasta `registros` guarda as imagens das suas jogadas até 1 GB (`LimiteRegistrosBytes` no `config.json`). Passou
-disso, o Lanterna apaga as imagens das runs mais antigas. As jogadas em si (o que vai no arquivo de decisões) ficam.
+A pasta `registros` guarda as suas jogadas (o que vai no arquivo de decisões) sempre, e as imagens só das 2 últimas runs.
+As imagens também têm um teto de 200 MB (`LimiteRegistrosBytes` no `config.json`; o 1 GB que ficou salvo das versões
+anteriores vale como 200 MB). Com "Guardar imagens para diagnóstico", ficam as imagens de todas as runs até 1 GB (ou até o
+valor que você pôs no `config.json`). Passou do teto, o Lanterna apaga as imagens das runs mais antigas.
