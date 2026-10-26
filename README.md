@@ -106,7 +106,16 @@ Sem internet, ou se recebeu um "Lanterna-atualizacao-X.Y.Z.zip":
 - **Verificar o computador**: mostra de novo a verificação.
 - **Log do jogo**: o Lanterna acha sozinho o arquivo de log do Torchlight (Steam) e, com ele, só lê a tela quando um
   minijogo está aberto (gasta menos o computador). Se mostrar "não encontrado", use "Apontar pasta do jogo…" e escolha
-  a pasta do Torchlight Infinite. Sem o log, tudo funciona do mesmo jeito, só pela tela.
+  a pasta do Torchlight Infinite. Sem o log, tudo funciona do mesmo jeito, só pela tela. Com o log, nos mapas (sem
+  mecânica aberta) o Lanterna não lê a tela, para não pesar no jogo. Se o log não mostrar as telas da mecânica, o Lanterna
+  avisa na tela: abra a mecânica de novo, ou ligue "Leitura contínua da tela".
+- **Ativar o log do jogo** (o mesmo passo do ETor): no jogo, clique em "Enable log", volte à tela inicial e entre de novo.
+  Só assim o jogo escreve o log completo. Com o log parado (sem crescer por 30 s), o Lanterna avisa como ativar e lê a tela
+  sempre, como sem log (funciona, mas gasta FPS nos mapas).
+- **Leitura contínua da tela** (desligada): lê a tela mesmo quando o log não diz se a mecânica está aberta, como até a
+  versão 1.4.3. Ligue só se as indicações não aparecerem com a mecânica aberta: usa mais o computador nos mapas.
+- **Aviso de Tartarus cheio** (ligado): nos mapas, lê o contador "X/48" do Tartarus quando o mapa carrega e depois uma vez por
+  minuto. Desligado, nada é lido fora da mecânica.
 
 Os dados ficam todos na pasta do Lanterna (`config.json`, registros, aprendizado). Para começar do zero, apague esses
 arquivos com o programa fechado.
