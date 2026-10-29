@@ -19,6 +19,7 @@ Um overlay que lê a tela do jogo e indica a melhor jogada nas mecânicas de tem
   o Tartarus está quase cheio, de 45/48, ou cheio)
 - **Cubo** (na loja Blessings from Gods, as ofertas que compensam e quando dar Refresh)
 - **Vorax** (na Surgical Preparation, qual instrumento e qual poção pegar, em que tanque usar e quando dar Refresh)
+- **Arcana** (por enquanto só grava os seus Tarot Paths, para estudar a mecânica; as indicações vêm depois)
 
 Ele **só** lê a tela e desenha as indicações. Não clica, não aperta teclas, não mexe na memória do jogo e não envia
 nenhuma informação para a internet. O único contato dele com a internet é para **receber** atualizações (do GitHub).
@@ -50,8 +51,9 @@ https://github.com/PlaayerBL/lanterna-releases/releases/latest
 ## Usar
 
 - O Lanterna fica como um ícone com a letra L na bandeja (perto do relógio).
-- Botão direito no ícone > Mecânica: escolha Mistville, Canvas, Tartarus, Cubo (Blessings from Gods) ou Vorax (Surgical
-  Preparation). Só a escolhida roda.
+- Botão direito no ícone > Mecânica: escolha Mistville, Canvas, Tartarus, Cubo (Blessings from Gods), Vorax (Surgical
+  Preparation) ou Arcana (Tarot Path). Só a escolhida roda. A Arcana também entra sozinha quando o Tarot Path abre e, quando
+  você sai dele (pela seta ou no fim), volta para a mecânica de antes.
 - Botão direito no ícone > Leitura de texto (OCR): automático (inglês se tiver, senão português), inglês, português ou
   inglês + português (o que o inglês não ler, em português).
 - Cubo: os preços são os que você digita em bandeja > "Preços do Cubo…" (sem o da Divinity Stone, nada é calculado; itens fora da lista são ignorados).
@@ -108,7 +110,8 @@ Sem internet, ou se recebeu um "Lanterna-atualizacao-X.Y.Z.zip":
 - **Verificar o computador**: mostra de novo a verificação.
 - **Log do jogo**: o Lanterna acha sozinho o arquivo de log do Torchlight (Steam) e, com ele, só lê a tela quando um
   minijogo está aberto (gasta menos o computador). Se mostrar "não encontrado", use "Apontar pasta do jogo…" e escolha
-  a pasta do Torchlight Infinite. Sem o log, tudo funciona do mesmo jeito, só pela tela. Com o log, nos mapas (sem
+  a pasta do Torchlight Infinite. Sem o log, tudo funciona do mesmo jeito, só pela tela (menos a gravação da Arcana, que
+  precisa do log). Com o log, nos mapas (sem
   mecânica aberta) o Lanterna não lê a tela, para não pesar no jogo. Se o log não mostrar as telas da mecânica, o Lanterna
   avisa na tela: abra a mecânica de novo, ou ligue "Leitura contínua da tela".
 - **Ativar o log do jogo** (o mesmo passo do ETor): no jogo, clique em "Enable log", volte à tela inicial e entre de novo.
@@ -128,3 +131,7 @@ A pasta `registros` guarda as suas jogadas (o que vai no arquivo de decisões) s
 As imagens também têm um teto de 200 MB (`LimiteRegistrosBytes` no `config.json`; o 1 GB que ficou salvo das versões
 anteriores vale como 200 MB). Com "Guardar imagens para diagnóstico", ficam as imagens de todas as runs até 1 GB (ou até o
 valor que você pôs no `config.json`). Passou do teto, o Lanterna apaga as imagens das runs mais antigas.
+
+As gravações da Arcana ficam em `registros/arcana`, fora dessas regras: guardam as imagens de todas as partidas, sem teto
+(são o material para estudar a mecânica). Bandeja > "Abrir a pasta das gravações da Arcana" abre a pasta para você zipar e
+mandar. Com menos de 5 GB livres no disco, os quadros do Tarot Path deixam de ser gravados.
